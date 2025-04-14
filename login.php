@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $dbname = "auctiondb";  // Change DB name if necessary
 
     // Create connection
-    $conn = new mysqli($servername, $db_email, $db_password, $dbname, 3306);
+    $conn = new mysqli($servername, $db_email, $db_password, $dbname, 3307);
 
     // Check connection
     if ($conn->connect_error) {
